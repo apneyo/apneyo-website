@@ -217,7 +217,7 @@ Table of Content
             const { counterUp } = window.counterUp
             const el = document.querySelector( '.counter' )
 
-            if (el.length) {
+            if (el && el.length) {
 
                 counterUp( el, {
                     duration: 5000,
