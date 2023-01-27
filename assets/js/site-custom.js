@@ -213,12 +213,16 @@ Table of Content
 
         // Animated Counter
         animated_counter: function () {
-            if ($('.counter').length) {
 
-                $('.counter').counterUp({
-                    delay: 10,
-                    time: 1000
-                });
+            const { counterUp } = window.counterUp
+            const el = document.querySelector( '.counter' )
+
+            if (el.length) {
+
+                counterUp( el, {
+                    duration: 5000,
+                    delay: 16,
+                } )
             }
         },
 
