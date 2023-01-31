@@ -117,16 +117,6 @@ header .container{
 label {
     font-size: 0.875rem;
 }
-.clickdesk-ultra .cd-chat-content .cdw-chat-popup-white-label {
-    display: inline-block!important;
-    float: right!important;
-    width: 58%!important;
-    text-align: right;
-    visibility: collapse;
-    overflow: hidden;
-    white-space: nowrap!important;
-    padding-bottom: 2px!important;
-}
 /*   Links Setting   */
 a{
     color: #333;
