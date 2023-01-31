@@ -642,8 +642,6 @@ Table of Content
             var language = navigator.language || navigator.browserLanguage;
             if (language.indexOf('en') > -1) {
                 document.location.href = '/en';
-            } else {
-                document.location.href = '/';
             }
         },
 
