@@ -15,6 +15,7 @@ Table of Content
 11. Animated Skill Bars
 12. Animated Counter
 13. Popup Gallery & Videos
+14. Language redirect
 */
 
 (function ($) {
@@ -215,14 +216,14 @@ Table of Content
         animated_counter: function () {
 
             const { counterUp } = window.counterUp
-            const el = document.querySelector( '.counter' )
+            const el = document.querySelector('.counter')
 
             if (el && el.length) {
 
-                counterUp( el, {
+                counterUp(el, {
                     duration: 5000,
                     delay: 16,
-                } )
+                })
             }
         },
 
@@ -636,6 +637,16 @@ Table of Content
             }
         },
 
+        // Redirect according to language
+        language_redirect: function () {
+            var language = navigator.language || navigator.browserLanguage;
+            if (language.indexOf('en') > -1) {
+                document.location.href = '/en';
+            } else {
+                document.location.href = '/';
+            }
+        },
+
 
         initializ: function () {
 
@@ -663,7 +674,7 @@ Table of Content
             this.carousel_home_second_events();
             this.carousel_home_second_testimonials();
             this.contact_form();
-
+            this.language_redirect();
         }
 
     }
