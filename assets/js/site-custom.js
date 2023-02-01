@@ -640,7 +640,7 @@ Table of Content
         // Redirect according to language
         language_redirect: function () {
             var language = navigator.language || navigator.browserLanguage;
-            if (language.indexOf('en') > -1) {
+            if (language.indexOf('en') > -1  && document.location.href.indexOf('/en') < 0 ) {
                 document.location.href = '/en';
             }
         },
