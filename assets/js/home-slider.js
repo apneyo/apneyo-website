@@ -1,3 +1,4 @@
+// Changes in this file needs to be minimized in home-slider.min.js
 (function ($) {
     "use strict";
 

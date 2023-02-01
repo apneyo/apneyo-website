@@ -1,4 +1,7 @@
-/* ==================== 
+// Changes in this file needs to be minimized in site-custom.min.js
+
+/* 
+==================== 
 Table of Content 
 ==================== 
 
