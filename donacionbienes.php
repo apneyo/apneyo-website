@@ -36,7 +36,7 @@ mail($destino,"📝🔴 Nuevo mensaje para donación de Bienes", $contenido);
 
 echo '<script language="javascript">
 alertify.alert("Contacto exitoso", " ✅ Mensaje enviado con éxito");
-window.location.replace("https://apneyomancora.org/donacion#donacion-bienes");</script>';
+window.location.replace("donacion.html#donacion-bienes");</script>';
 ?>
     </body>
     

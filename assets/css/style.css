@@ -99,6 +99,7 @@ html {
     -moz-osx-font-smoothing: grayscale;
     font-size: 16px;
 }
+
 body {
     font-family: 'Nunito', sans-serif;
     font-size: 1rem;
@@ -116,16 +117,6 @@ header .container{
 }
 label {
     font-size: 0.875rem;
-}
-.clickdesk-ultra .cd-chat-content .cdw-chat-popup-white-label {
-    display: inline-block!important;
-    float: right!important;
-    width: 58%!important;
-    text-align: right;
-    visibility: collapse;
-    overflow: hidden;
-    white-space: nowrap!important;
-    padding-bottom: 2px!important;
 }
 /*   Links Setting   */
 a{
@@ -1738,6 +1729,7 @@ blockquote:before,
 	font-weight: normal;
 	font-style: normal;
 	font-display: block;
+    font-display: swap;
 }
 
 i[class*="charity-"]{
