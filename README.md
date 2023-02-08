@@ -69,4 +69,4 @@ To address these downsides, the following enhancements can be made:
 
 2. Use a bundler: By using a bundler, such as Webpack or Rollup, the site can be optimized for performance and made easier to maintain.
 
-3. Add HTML templating: By using a templating language, such as Handlebars or Nunjucks, the
+3. Add HTML templating: By using a templating language, such as Handlebars or Nunjucks, the code can be better organized and easier to maintain.
